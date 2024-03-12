@@ -16,7 +16,8 @@
             android:name=".SubHunter"
             android:exported="true"
             android:screenOrientation="landscape"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            tools:ignore="DiscouragedApi">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
